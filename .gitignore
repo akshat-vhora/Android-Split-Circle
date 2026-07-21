@@ -35,12 +35,13 @@ app.*.symbols
 # Obfuscation related
 app.*.map.json
 
-# Android Studio build artifacts
+# Android Studio & Kotlin
+/android/.gradle/
+/android/.kotlin/
+/android/app/build/
 /android/app/debug
 /android/app/profile
 /android/app/release
-/android/.gradle/
-/android/app/build/
 
 # Environment variables
 .env
