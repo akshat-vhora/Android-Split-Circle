@@ -18,11 +18,6 @@ migrate_working_dir/
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
@@ -32,6 +27,7 @@ migrate_working_dir/
 .pub/
 /build/
 /coverage/
+.metadata
 
 # Symbolication related
 app.*.symbols
@@ -39,16 +35,20 @@ app.*.symbols
 # Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
+# Android Studio build artifacts
 /android/app/debug
 /android/app/profile
 /android/app/release
+/android/.gradle/
+/android/app/build/
 
 # Environment variables
 .env
 
 # Node.js
 node_modules/
+package.json
+package-lock.json
 
 # IDE/agent config
 .agents/
@@ -57,19 +57,28 @@ node_modules/
 
 # Archives
 *.rar
+lib/*.rar
 
 # Lock files (auto-generated)
 skills-lock.json
 
-# Android build output
-/android/.gradle/
-/android/app/build/
-
-# Flutter web
-/build/web/
-
 # Supabase local temp
 supabase/.temp/
 
-# Archives inside lib
-lib/*.rar
+# Supabase reports & tests
+supabase/DEVELOPMENT_RESET_REPORT.md
+supabase/DRIFT_REPORT.md
+supabase/verify_sync.sql
+supabase/tests/
+
+# CI/CD
+.github/
+
+# Tests
+test/
+
+# OpenCode
+opencode.json
+
+# Flutter web
+/build/web/
