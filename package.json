@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "supabase": "^2.98.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@supabase/supabase-js": "^2.105.4"
+  }
+}

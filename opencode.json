@@ -1,0 +1,15 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "amodz_local": {
+      "type": "remote",
+      "url": "http://127.0.0.1:8787/mcp",
+      "enabled": true
+    },
+    "amodz_network": {
+      "type": "remote",
+      "url": "http://192.168.29.228:8787/mcp",
+      "enabled": false
+    }
+  }
+}

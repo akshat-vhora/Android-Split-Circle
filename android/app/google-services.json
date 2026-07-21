@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "451762423596",
+    "project_id": "splitcircle-supa",
+    "storage_bucket": "splitcircle-supa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451762423596:android:313d7b7d16811d1e604e89",
+        "android_client_info": {
+          "package_name": "com.vapps.splitcircle_supa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2QGAi5iBs-v96ngNb9Vgne6uF-5aXfbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
