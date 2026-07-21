@@ -67,3 +67,9 @@ skills-lock.json
 
 # Flutter web
 /build/web/
+
+# Supabase local temp
+supabase/.temp/
+
+# Archives inside lib
+lib/*.rar
