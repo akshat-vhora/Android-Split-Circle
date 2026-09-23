@@ -5,17 +5,14 @@ A Flutter mobile app for splitting expenses and tracking IOUs among friends, pow
 ## Screenshots
 
 <p float="left">
-  <img src="screenshots/home_1.jpeg" width="180" />
-  <img src="screenshots/home_2.jpeg" width="180" />
+  <img src="screenshots/home.jpeg" width="180" />
   <img src="screenshots/list_expenses.jpeg" width="180" />
   <img src="screenshots/expense_analytics.jpeg" width="180" />
   <img src="screenshots/friends.jpeg" width="180" />
   <img src="screenshots/add_friend.jpeg" width="180" />
-  <img src="screenshots/add_expense.jpeg" width="180" />
   <img src="screenshots/create_expense.jpeg" width="180" />
   <img src="screenshots/notifications.jpeg" width="180" />
   <img src="screenshots/profile.jpeg" width="180" />
-  <img src="screenshots/settings.jpeg" width="180" />
 </p>
 
 ## Features
